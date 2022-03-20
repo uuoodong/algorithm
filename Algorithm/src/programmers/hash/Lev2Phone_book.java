@@ -23,6 +23,7 @@ class Lev2Phone_book {
 	        return true;
 	    }
 	}
+	
 	static class BestSol {
 	    public boolean solution(String[] phone_book) {	        
 	        Map<String, Integer> map = new HashMap<>();
