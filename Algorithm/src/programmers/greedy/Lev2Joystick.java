@@ -2,8 +2,8 @@ package programmers.greedy;
 
 public class Lev2Joystick {
 
-	static class Solution {
-		public int solution(String name) {
+	public static class Solution {
+		public static int solution(String name) {
 			int answer = 0;
 			int l = name.length();
 			int index;
@@ -24,7 +24,10 @@ public class Lev2Joystick {
 	}
 
 	public static void main(String[] args) {
-
+		String[] name = {"JEROEN", "JAN", "JAZ", "ABAAAAAAAAABB", "BBBBAAAAAB", "BBAABB"};
+		for(String a : name) {
+			System.out.println(Solution.solution(a));
+		}
 	}
 
 }
