@@ -1,6 +1,6 @@
 package programmers.coding;
 
-public class Create_prime_numbers {
+public class Lev1Create_prime_numbers {
 
 	class Solution {
 		int answer;
