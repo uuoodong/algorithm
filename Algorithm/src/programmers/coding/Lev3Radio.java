@@ -23,7 +23,6 @@ public class Lev3Radio {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 
