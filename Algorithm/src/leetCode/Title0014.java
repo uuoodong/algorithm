@@ -24,6 +24,7 @@ public class Title0014 {
 			}
 			return strs[0].substring(0, cnt);
 		}
+		
 	}
 
 	public static void main(String[] args) {
