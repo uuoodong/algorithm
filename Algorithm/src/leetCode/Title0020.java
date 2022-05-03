@@ -1,10 +1,14 @@
 package leetCode;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+import java.util.Stack;
 
 public class Title0020 {
 
-	class Solution {
+	static class Solution {
 		public boolean isValid(String s) {
 			boolean ans = false;
 			Map<Character, Character> map = new HashMap<>();
@@ -39,8 +43,9 @@ public class Title0020 {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Solution sol = new Solution();
+		boolean a = sol.isValid("{}()[]");
+		System.out.println(a);
 	}
 
 }
